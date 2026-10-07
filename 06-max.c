@@ -5,8 +5,7 @@ int main(void)
 {
     int a = 8;
     int b = 3;
-    int max = (a > b) ? a : b;
 
-    printf("%d\n", max);
+    printf("%d\n", (a > b) ? a : b);
     return 0;
 }
